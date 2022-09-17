@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: AWS Inspector installation for Linux.
+  homepage: https://buluma.github.io/
+  topics: system, aws, security, inspector, awsagent, cloud, ansible, molecule, tox, playbook, hacktoberfest
