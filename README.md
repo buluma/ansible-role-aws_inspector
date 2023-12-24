@@ -1,10 +1,10 @@
-# [Ansible role aws_inspector](#aws_inspector)
+# Ansible role [aws_inspector](https://galaxy.ansible.com/ui/standalone/roles/buluma/aws_inspector/documentation)
 
 AWS Inspector installation for Linux.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-aws_inspector/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-aws_inspector/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-aws_inspector.svg)](https://github.com/buluma/ansible-role-aws_inspector/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-aws_inspector.svg)](https://github.com/buluma/ansible-role-aws_inspector/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-aws_inspector.svg)](https://github.com/buluma/ansible-role-aws_inspector/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-aws_inspector/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-aws_inspector/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-aws_inspector.svg)](https://github.com/buluma/ansible-role-aws_inspector/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-aws_inspector.svg)](https://github.com/buluma/ansible-role-aws_inspector/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-aws_inspector.svg)](https://github.com/buluma/ansible-role-aws_inspector/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/aws_inspector)](https://galaxy.ansible.com/ui/standalone/roles/buluma/aws_inspector/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -111,13 +111,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-aws_inspector/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-aws_inspector/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
