@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-aws_inspector/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/0.1.2...HEAD)
+
+**Closed issues:**
+
+- Update action [\#6](https://github.com/buluma/ansible-role-aws_inspector/issues/6)
+- rebuild action [\#5](https://github.com/buluma/ansible-role-aws_inspector/issues/5)
+- Complete Readme and add to tracker [\#1](https://github.com/buluma/ansible-role-aws_inspector/issues/1)
+
 ## [0.1.2](https://github.com/buluma/ansible-role-aws_inspector/tree/0.1.2) (2023-12-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/0.1.1...0.1.2)
