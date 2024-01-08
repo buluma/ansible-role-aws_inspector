@@ -1,14 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-aws_inspector/tree/HEAD)
+## [0.2.0](https://github.com/buluma/ansible-role-aws_inspector/tree/0.2.0) (2024-01-03)
 
-[Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/0.1.2...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/0.1.2...0.2.0)
 
 **Closed issues:**
 
 - Update action [\#6](https://github.com/buluma/ansible-role-aws_inspector/issues/6)
 - rebuild action [\#5](https://github.com/buluma/ansible-role-aws_inspector/issues/5)
 - Complete Readme and add to tracker [\#1](https://github.com/buluma/ansible-role-aws_inspector/issues/1)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#8](https://github.com/buluma/ansible-role-aws_inspector/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.1.2](https://github.com/buluma/ansible-role-aws_inspector/tree/0.1.2) (2023-12-29)
 
