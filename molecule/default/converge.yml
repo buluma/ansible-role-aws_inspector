@@ -1,8 +1,11 @@
 ---
 - name: Converge
   hosts: all
+  become: true
+  gather_facts: true
   vars:
     aws_inspector_role_test_mode: true
+    awsagent_enabled: true
 
   pre_tasks:
     - name: Update apt cache
