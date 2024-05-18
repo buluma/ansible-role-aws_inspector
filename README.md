@@ -14,8 +14,11 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 ---
 - name: Converge
   hosts: all
+  become: true
+  gather_facts: true
   vars:
     aws_inspector_role_test_mode: true
+    awsagent_enabled: true
 
   pre_tasks:
     - name: Update apt cache
@@ -34,8 +37,8 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 ---
 - name: Prepare
   hosts: all
-  become: yes
-  gather_facts: no
+  become: true
+  gather_facts: false
 
   roles:
     - role: buluma.bootstrap
@@ -61,9 +64,9 @@ awsagent_enabled: true
 aws_inspector_role_test_mode: false
 
 aws_inspector_proxy_enabled: false
-aws_inspector_https_proxy: 127.0.0.1:8080
-aws_inspector_http_proxy: 127.0.0.1:8080
-aws_inspector_no_proxy: 169.254.169.254
+aws_inspector_https_proxy: "127.0.0.1:8080"
+aws_inspector_http_proxy: "127.0.0.1:8080"
+aws_inspector_no_proxy: "169.254.169.254"
 ```
 
 ## [Requirements](#requirements)
