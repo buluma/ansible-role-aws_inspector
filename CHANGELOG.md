@@ -1,5 +1,9 @@
 # Changelog
 
+## [24.3.31](https://github.com/buluma/ansible-role-aws_inspector/tree/24.3.31) (2024-03-31)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/24.2.26...24.3.31)
+
 ## [24.2.26](https://github.com/buluma/ansible-role-aws_inspector/tree/24.2.26) (2024-02-17)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/0.3.0...24.2.26)
