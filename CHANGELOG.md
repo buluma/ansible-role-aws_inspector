@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-aws_inspector/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/24.3.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 4 to 6 [\#15](https://github.com/buluma/ansible-role-aws_inspector/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-aws_inspector/tree/24.3.31) (2024-03-31)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/24.2.26...24.3.31)
