@@ -1,18 +1,17 @@
----
-- name: Converge
-  hosts: all
-  become: true
-  gather_facts: true
-  vars:
-    aws_inspector_role_test_mode: true
-    awsagent_enabled: true
+  - name: Converge
+    hosts: all
+    become: true
+    gather_facts: true
+    vars:
+      aws_inspector_role_test_mode: true
+      awsagent_enabled: true
 
-  pre_tasks:
-    - name: Update apt cache
-      apt: update_cache=yes cache_valid_time=600
-      when: ansible_os_family == 'Debian'
-      changed_when: false
-  tasks:
-    - name: "Include buluma.aws_inspector"
-      ansible.builtin.include_role:
-        name: "buluma.aws_inspector"
+    pre_tasks:
+      - name: Update apt cache
+        apt: update_cache=yes cache_valid_time=600
+        when: ansible_os_family == 'Debian'
+        changed_when: false
+    tasks:
+      - name: "Include buluma.aws_inspector"
+        ansible.builtin.include_role:
+          name: "buluma.aws_inspector"
