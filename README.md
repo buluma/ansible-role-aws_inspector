@@ -12,37 +12,37 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - name: Converge
-    hosts: all
-    become: true
-    gather_facts: true
-    vars:
-      aws_inspector_role_test_mode: true
-      awsagent_enabled: true
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: true
+  vars:
+    aws_inspector_role_test_mode: true
+    awsagent_enabled: true
 
-    pre_tasks:
-      - name: Update apt cache
-        apt: update_cache=yes cache_valid_time=600
-        when: ansible_os_family == 'Debian'
-        changed_when: false
-    tasks:
-      - name: "Include buluma.aws_inspector"
-        ansible.builtin.include_role:
-          name: "buluma.aws_inspector"
+  pre_tasks:
+  - name: Update apt cache
+    apt: update_cache=yes cache_valid_time=600
+    when: ansible_os_family == 'Debian'
+    changed_when: false
+  tasks:
+  - name: "Include buluma.aws_inspector"
+    ansible.builtin.include_role:
+      name: "buluma.aws_inspector"
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-aws_inspector/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - name: Prepare
-    hosts: all
-    become: true
-    gather_facts: false
+- name: Prepare
+  hosts: all
+  become: true
+  gather_facts: false
 
-    roles:
-      - role: buluma.bootstrap
-      - role: buluma.ca_certificates
+  roles:
+  - role: buluma.bootstrap
+  - role: buluma.ca_certificates
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
