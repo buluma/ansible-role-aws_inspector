@@ -1,5 +1,9 @@
 # Changelog
 
+## [26.6.1](https://github.com/buluma/ansible-role-aws_inspector/tree/26.6.1) (2026-06-14)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/26.6.0...26.6.1)
+
 ## [26.6.0](https://github.com/buluma/ansible-role-aws_inspector/tree/26.6.0) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/24.3.31...26.6.0)
@@ -20,14 +24,11 @@
 **Merged pull requests:**
 
 - Bump release-drafter/release-drafter from 5 to 6 [\#11](https://github.com/buluma/ansible-role-aws_inspector/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#10](https://github.com/buluma/ansible-role-aws_inspector/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.3.0](https://github.com/buluma/ansible-role-aws_inspector/tree/0.3.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aws_inspector/compare/0.2.0...0.3.0)
-
-**Merged pull requests:**
-
-- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#10](https://github.com/buluma/ansible-role-aws_inspector/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.2.0](https://github.com/buluma/ansible-role-aws_inspector/tree/0.2.0) (2024-01-03)
 
