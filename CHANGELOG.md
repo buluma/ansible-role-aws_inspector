@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- Bump docker/setup-buildx-action from 3 to 4 [\#17](https://github.com/buluma/ansible-role-aws_inspector/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 4 to 6 [\#15](https://github.com/buluma/ansible-role-aws_inspector/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-aws_inspector/tree/24.3.31) (2024-03-31)
@@ -44,7 +45,6 @@
 
 **Merged pull requests:**
 
-- Bump docker/setup-buildx-action from 3 to 4 [\#17](https://github.com/buluma/ansible-role-aws_inspector/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#8](https://github.com/buluma/ansible-role-aws_inspector/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.1.2](https://github.com/buluma/ansible-role-aws_inspector/tree/0.1.2) (2023-12-29)
